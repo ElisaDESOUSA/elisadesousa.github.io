@@ -1,124 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Elisa DE SOUSA | Etudiante en développement web</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elisa DE SOUSA | Etudiante en développement web</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
-    <!-- Barre de Navigation -->
-    <nav class="navbar">
-        <div class="navbar__container">
-            <a href="#home" id="navbar__logo">Elisa</a>
-            <div class="navbar__toggle" id="mobile-menu">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="navbar__menu">
-                <li class="navbar__item">
-                    <a href="#home" class="navbar__links" id="home-page">Accueil</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__links" id="portfolio-page">Portfolio</a>
-                </li>
-                <li class="navbar__item">
-                    <a href="#" class="navbar__links" id="resume-page">Mon CV</a>
-                </li>
-                <li class="navbar__btn">
-                    <a href="#" class="button" id="contact">Contact</a>
-                </li>
-            </ul>
+<!-- Barre de Navigation -->
+<nav class="navbar">
+    <div class="navbar__container">
+        <a href="#home" id="navbar__logo"><img src="image/logo.png" class="logo" alt="logo"></a>
+        <div class="navbar__toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
         </div>
-    </nav>
+        <ul class="navbar__menu">
+            <li class="navbar__item">
+                <a href="#home" class="navbar__links" id="home-page">Accueil</a>
+            </li>
+            <li class="navbar__item">
+                <a href="portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a>
+            </li>
+            <li class="navbar__item">
+                <a href="moncv.html" class="navbar__links" id="resume-page">Mon CV</a>
+            </li>
+            <li class="navbar__btn">
+                <a href="contact.html" class="button" id="contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
 
-    <!-- Hero Section -->
-    <div class="hero" id="home">
-        <div class="hero__container">
-            <h1 class="hero__heading">Hello world <br> Je suis <span id="typewriter"></span></h1>
-            <p class="hero__description">Créons le site de vos rêves</p>
-            <button class="main__btn"><a href="#">Parcourez</a></button>
+<!-- Hero Section -->
+<div class="hero" id="home">
+    <div class="hero__container">
+        <h1 class="hero__heading">Hello world <br> Je suis <span id="typewriter"></span></h1>
+        <!--<p class="hero__description">Créons le site de vos rêves</p>-->
+        <button class="main__btn"><a href="#">Parcourir</a></button>
+    </div>
+</div>
+
+<!-- About Section -->
+<div class="main" id="about">
+    <div class="main__container">
+        <div class="main__img--container">
+            <div class="main__img--card"><img src="image/Saturne1.png"></div>
+        </div>
+        <div class="main__content">
+            <h1>Qui suis-je ?</h1>
+            <h2>Etudiante en développement web en 1ère année</h2>
+            <p>Découvrez mes compétences</p>
+            <button class="main__btn"><a href="#">En savoir plus</a></button>
         </div>
     </div>
+</div>
 
-    <!-- About Section -->
-    <div class="main" id="about">
-        <div class="main__container">
-            <div class="main__img--container">
-                <div class="main__img--card"><i class="fa-solid fa-code"></i></div>
-            </div>
-            <div class="main__content">
-                <h1>Qui suis-je ?</h1>
-                <h2>Etudiante en développement web en 1ère année</h2>
-                <p>Découvrez mes compétences</p>
-                <button class="main__btn"><a href="#">En savoir plus</a></button>
-            </div>
+<!-- Services Section -->
+<div class="services" id="services">
+    <h1>Mes compétences</h1>
+    <div class="services__wrapper">
+        <div class="services__card">
+            <h2>Développement de site</h2>
+            <p>HTML / CSS / JavaScript</p>
+            <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>            
+        </div>
+        <div class="services__card">
+            <h2>Site clé en main</h2>
+            <p>Utilisation du CMS WordPress</p>
+            <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>
+        </div>
+        <div class="services__card">
+            <h2>Marketing Digital</h2>
+            <p>Misons sur le référencement naturel - SEO</p>
+            <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>            
+        </div>
+        <div class="services__card">
+            <h2>Identité visuelle</h2>
+            <p>Créons un site qui vous ressemble</p>
+            <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div> 
         </div>
     </div>
+</div>
 
-    <!-- Services Section -->
-    <div class="services" id="services">
-        <h1>Mes compétences</h1>
-        <div class="services__wrapper">
-            <div class="services__card">
-                <h2>Développement de site</h2>
-                <p>HTML / CSS / JavaScript</p>
-                <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>            
+
+<!-- Footer Section -->
+<footer class="footer__container">
+    <div class="footer__links">
+        <div class="footer__link--wrapper">
+            <div class="footer__link--items">
+                <h2>Me contacter</h2>
+                <a href="#">Contact</a>
             </div>
-            <div class="services__card">
-                <h2>Site clé en main</h2>
-                <p>Utilisation du CMS WordPress</p>
-                <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>
-            </div>
-            <div class="services__card">
-                <h2>Marketing Digital</h2>
-                <p>Misons sur le référencement naturel - SEO</p>
-                <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>            
-            </div>
-            <div class="services__card">
-                <h2>Identité visuelle</h2>
-                <p>Créons un site qui vous ressemble</p>
-                <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div> 
-            </div>
+            <div class="footer__link--items">
+                <h2>Mes réseaux sociaux</h2>
+                <a href="#">Instagram</a>
+                <a href="#">Facebook</a>
+                <a href="#">LinkedIn</a>
+            </div>    
         </div>
     </div>
-
-
-    <!-- Footer Section -->
-    <footer class="footer__container">
-        <div class="footer__links">
-            <div class="footer__link--wrapper">
-                <div class="footer__link--items">
-                    <h2>Me contacter</h2>
-                    <a href="#">Contact</a>
-                </div>
-                <div class="footer__link--items">
-                    <h2>Mes réseaux sociaux</h2>
-                    <a href="#">Instagram</a>
-                    <a href="#">Facebook</a>
-                    <a href="#">LinkedIn</a>
-                </div>    
+    <section class="social__media">
+        <div class="social__media--wrap">
+            <div class="footer__logo">
+                <a href="#" id="footer__logo"><img src="image/Logo1.png" class="logo" alt="Logo"></a>
+            </div>
+            <p class="website__rights">© Elisa 2022. All rights reserved</p>
+            <div class="social__icons">
+                <a href="#" class="social__icon--link"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="social__icon--link"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
-        <section class="social__media">
-            <div class="social__media--wrap">
-                <div class="footer__logo">
-                    <a href="#" id="footer__logo">ELISA</a>
-                </div>
-                <p class="website__rights">© Elisa 2022. All rights reserved</p>
-                <div class="social__icons">
-                    <a href="#" class="social__icon--link"><i class="fab fa-instagram"></i></a>
-                    <a href="#" class="social__icon--link"><i class="fab fa-facebook"></i></a>
-                    <a href="#" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
-                </div>
-            </div>
-        </section>
-    </footer>
+    </section>
+</footer>
 
-    <script src="https://kit.fontawesome.com/1684a4a34d.js" crossorigin="anonymous"></script>
-    <script src="script.js"></script>
+<script src="https://kit.fontawesome.com/1684a4a34d.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
 </body>
 </html>
