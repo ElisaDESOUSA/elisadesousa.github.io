@@ -10,26 +10,26 @@
 </head>
 <body>
 <!-- Barre de Navigation -->
-<nav class="navbar">
-    <div class="navbar__container">
-        <a href="#home" id="navbar__logo"><img src="image/logo.png" class="logo" alt="logo"></a>
-        <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+<nav class="navigation_barre">
+    <div class="navigation">
+        <a href="#home" id="navigation_logo"><img src="image/logo.png" class="logo" alt="logo"></a>
+        <div class="navigation_deroulante" id="navigation_responsive">
+            <span class="barre"></span>
+            <span class="barre"></span>
+            <span class="barre"></span>
         </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="#home" class="navbar__links" id="home-page">Accueil</a>
+        <ul class="navigation_menu">
+            <li class="navigation_onglet">
+                <a href="index.html" class="navigation_lien" id="home-page">Accueil</a>
             </li>
-            <li class="navbar__item">
-                <a href="portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a>
+            <li class="navigation_onglet">
+                <a href="portfolio.html" class="navigation_lien" id="portfolio-page">Portfolio</a>
             </li>
-            <li class="navbar__item">
-                <a href="moncv.html" class="navbar__links" id="resume-page">Mon CV</a>
+            <li class="navigation_onglet">
+                <a href="moncv.html" class="navigation_lien" id="resume-page">Mon CV</a>
             </li>
-            <li class="navbar__btn">
-                <a href="contact.html" class="button" id="contact">Contact</a>
+            <li class="navigation_contact">
+                <a href="contact.html" class="bouton" id="contact">Contact</a>
             </li>
         </ul>
     </div>
@@ -37,24 +37,23 @@
 
 <!-- Hero Section -->
 <div class="hero" id="home">
-    <div class="hero__container">
-        <h1 class="hero__heading">Hello world <br> Je suis <span id="typewriter"></span></h1>
-        <!--<p class="hero__description">Créons le site de vos rêves</p>-->
-        <button class="main__btn"><a href="#">Parcourir</a></button>
+    <div class="hero_section">
+        <h1 class="hero_titre">Hello world <br> Je suis <span id="typewriter"></span></h1>
+        <button class="main_btn"><a href="#">Parcourir</a></button>
     </div>
 </div>
 
-<!-- About Section -->
-<div class="main" id="about">
-    <div class="main__container">
-        <div class="main__img--container">
-            <div class="main__img--card"><img src="image/Saturne1.png"></div>
+<!-- A propos Section -->
+<div class="a_propos" id="about">
+    <div class="a_propos_section">
+        <div class="a_propos_image">
+            <div class="a_propos_image_image"><img src="image/Saturne1.png" alt="image_saturne"></div>
         </div>
-        <div class="main__content">
+        <div class="a_propos_texte">
             <h1>Qui suis-je ?</h1>
             <h2>Etudiante en développement web en 1ère année</h2>
             <p>Découvrez mes compétences</p>
-            <button class="main__btn"><a href="#">En savoir plus</a></button>
+            <button class="main_btn"><a href="#">En savoir plus</a></button>
         </div>
     </div>
 </div>
@@ -62,40 +61,40 @@
 <!-- Services Section -->
 <div class="services" id="services">
     <h1>Mes compétences</h1>
-    <div class="services__wrapper">
-        <div class="services__card">
+    <div class="services_section">
+        <div class="services_encart">
             <h2>Développement de site</h2>
             <p>HTML / CSS / JavaScript</p>
-            <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>            
+            <div class="services_btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>            
         </div>
-        <div class="services__card">
+        <div class="services_encart">
             <h2>Site clé en main</h2>
             <p>Utilisation du CMS WordPress</p>
-            <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>
+            <div class="services_btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>
         </div>
-        <div class="services__card">
+        <div class="services_encart">
             <h2>Marketing Digital</h2>
             <p>Misons sur le référencement naturel - SEO</p>
-            <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>            
+            <div class="services_btn"><button class="other__btn"><a href="#">C'est parti</a></button></div>            
         </div>
-        <div class="services__card">
+        <div class="services_encart">
             <h2>Identité visuelle</h2>
             <p>Créons un site qui vous ressemble</p>
-            <div class="services__btn"><button class="other__btn"><a href="#">C'est parti</a></button></div> 
+            <div class="services_btn"><button class="other__btn"><a href="#">C'est parti</a></button></div> 
         </div>
     </div>
 </div>
 
 
 <!-- Footer Section -->
-<footer class="footer__container">
-    <div class="footer__links">
-        <div class="footer__link--wrapper">
-            <div class="footer__link--items">
+<footer class="footer">
+    <div class="footer_lien_section">
+        <div class="footer_lien">
+            <div class="footer_lien_lien">
                 <h2>Me contacter</h2>
                 <a href="#">Contact</a>
             </div>
-            <div class="footer__link--items">
+            <div class="footer_lien_lien">
                 <h2>Mes réseaux sociaux</h2>
                 <a href="#">Instagram</a>
                 <a href="#">Facebook</a>
@@ -103,16 +102,16 @@
             </div>    
         </div>
     </div>
-    <section class="social__media">
-        <div class="social__media--wrap">
-            <div class="footer__logo">
-                <a href="#" id="footer__logo"><img src="image/Logo1.png" class="logo" alt="Logo"></a>
+    <section class="reseaux_sociaux">
+        <div class="reseaux_sociaux_section">
+            <div class="footer_logo">
+                <a href="#" id="footer_logo"><img src="image/Logo1.png" class="logo" alt="Logo"></a>
             </div>
-            <p class="website__rights">© Elisa 2022. All rights reserved</p>
-            <div class="social__icons">
-                <a href="#" class="social__icon--link"><i class="fab fa-instagram"></i></a>
-                <a href="#" class="social__icon--link"><i class="fab fa-facebook"></i></a>
-                <a href="#" class="social__icon--link"><i class="fab fa-linkedin"></i></a>
+            <p class="website_rights">© Elisa 2022.</p>
+            <div class="reseaux_sociaux_icon">
+                <a href="#" class="reseaux_sociaux_lien"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="reseaux_sociaux_lien"><i class="fab fa-facebook"></i></a>
+                <a href="#" class="reseaux_sociaux_lien"><i class="fab fa-linkedin"></i></a>
             </div>
         </div>
     </section>
