@@ -287,9 +287,9 @@
 
 .a_propos_texte h2 {
     font-size: 4rem;
-    background: #ff8177;
-    background: -webkit-linear-gradient(to right, #9114FF, #da22ff);
-    background: linear-gradient(to right, #8f0eff, #da22ff);
+    background: #fcb045;
+    background: -webkit-linear-gradient(to right, #6441A5, #da22ff);
+    background: linear-gradient(to right, #6441A5, #da22ff);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -305,9 +305,9 @@
 
 .main_btn {
     font-size: 1.8rem;
-    background: #833ab4;
-    background: -webkit-linear-gradiant(to right, #fcb045, #fd1d1d, #833ab4);
-    background: linear-gradient(to right, #Fcb045, #fd1d1d, #833ab4);
+    background: #6441A5;
+    background: -webkit-linear-gradiant(to right, #fcb045, #fd1d1d, #6441A5);
+    background: linear-gradient(to right, #Fcb045, #fd1d1d, #6441A5);
     padding: 20px 60px;
     border: none; 
     border-radius: 4px;
@@ -439,7 +439,7 @@
 }
 
 .services h1 {
-    background-color: #ff8177;
+    background-color: #fcb045;
     background-image: linear-gradient(to right, #fd1d1d 0%, #6441A5 100%);
     background-size: 100%;
     -webkit-background-clip: text;
@@ -470,7 +470,6 @@
 }
 
 
-
 .services_encart h2 {
     text-align: center;
 }
@@ -479,34 +478,6 @@
     text-align: center;
     margin-top: 24px;
     font-size: 20px;
-}
-
-.services_btn {
-    display: flex;
-    justify-content: center;
-    margin-top: 16px;
-}
-
-.services_btn a {
-    position: relative;
-    z-index: 2;
-    color: #fff;
-    text-decoration: none;
-}
-
-
-.services_encart button {
-    color: #fff;
-    padding: 14px 24px;
-    border: none;
-    outline: none;
-    border-radius: 4px;
-    background: #131313;
-    font-size: 1rem;
-}
-
-.services_encart button:hover {
-    cursor: pointer;
 }
 
 .services_encart:hover {
