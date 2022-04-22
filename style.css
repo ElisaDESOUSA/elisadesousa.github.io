@@ -306,7 +306,6 @@
 .main_btn {
     font-size: 1.8rem;
     background: #6441A5;
-    background: -webkit-linear-gradiant(to right, #fcb045, #fd1d1d, #6441A5);
     background: linear-gradient(to right, #Fcb045, #fd1d1d, #6441A5);
     padding: 20px 60px;
     border: none; 
@@ -438,9 +437,9 @@
     padding: 10rem 0;
 }
 
-.services h1 {
+.services h2 {
     background-color: #fcb045;
-    background-image: linear-gradient(to right, #fd1d1d 0%, #6441A5 100%);
+    background: linear-gradient(to right, #fcb045, #fd1d1d);
     background-size: 100%;
     -webkit-background-clip: text;
     -moz-background-clip: text;
@@ -470,7 +469,8 @@
 }
 
 
-.services_encart h2 {
+.services_encart h3 {
+    font-size: 1.3rem;
     text-align: center;
 }
 
@@ -484,7 +484,44 @@
     transform: scale(1.075);
     transition: 0.3s ease-in;
     cursor: pointer;
+    background: linear-gradient(to top,#fc6d6d, #6441A5);
 }
+
+.other_btn {
+    font-size: 1.5rem;
+    background: #fc6d6d;
+    background: linear-gradient(to right, #fd1d1d,#fc6d6d);
+    padding: 20px 60px;
+    border: none; 
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 2rem;
+    cursor: pointer;
+    position: relative;
+    transition: all 0.35s;
+    outline: none;
+}
+
+.other_btn a {
+    position: relative;
+    z-index: 2;
+    color: #fff;
+    text-decoration: none;
+}
+
+.other_btn:hover {
+    animation: pulsate 1s ease-in-out;
+}
+
+@keyframes pulsate {
+    0% {
+        box-shadow: 
+        0 0 25px #fcb045,
+        0 0 50px #fd1d1d;
+    }
+}
+
+
 
 /* Responsive Services Section*/
 
