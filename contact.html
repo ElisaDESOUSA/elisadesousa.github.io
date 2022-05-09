@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Elisa DE SOUSA | Etudiante en développement web</title>
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+<body>
+<!-- Barre de Navigation -->
+<nav class="navigation_barre">
+    <div class="navigation">
+        <a href="#home" id="navigation_logo"><img src="image/logo.png" class="logo" alt="logo"></a>
+        <div class="navigation_deroulante" id="navigation_responsive">
+            <span class="barre"></span>
+            <span class="barre"></span>
+            <span class="barre"></span>
+        </div>
+        <ul class="navigation_menu">
+            <li class="navigation_onglet">
+                <a href="index.html" class="navigation_lien" id="home-page">Accueil</a>
+            </li>
+            <li class="navigation_onglet">
+                <a href="portfolio.html" class="navigation_lien" id="portfolio-page">Portfolio</a>
+            </li>
+            <li class="navigation_onglet">
+                <a href="moncv.html" class="navigation_lien" id="resume-page">Mon CV</a>
+            </li>
+            <li class="navigation_contact">
+                <a href="contact.html" class="bouton" id="contact">Contact</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<div class="container_contact">
+    <h2>Formulaire de contact</h2>
+    <form action="" method="post" enctype="multipart/form-data">
+        <div class="container_box_contact">
+            <label for="text" class="contact_label">Nom</label>
+            <input type="text" class="contact_input" placeholder="Votre nom">
+            <label for="contact_input" class="contact_label">Prénom</label>
+            <input type="text" class="contact_input" placeholder="Votre prénom">
+        </div>
+        <div class="container_box_contact">
+            <label for="email" class="contact_label">Email</label>
+            <input type="email" class="email" id="email" placeholder="Votre email">
+        </div>
+        <div class="container_box_contact">
+            <label for="text" class="contact_label">Sujet</label>
+            <input type="text" class="contact_input" placeholder="Le sujet de votre message">
+        </div>
+        <div class="container_box_contact">
+            <label for="checkbox" class="contact_label">J'accepte les conditions d'utilisation</label>
+            <input type="checkbox">
+        </div>
+        <div class="container_box_contact">
+            <label for="message" class="contact_label">Votre message</label>
+            <textarea type="message" placeholder="Laissez un message ici" id="message" name="message"></textarea>
+        </div>
+        <div class="container_box_contact">
+            <label for="files" class="contact_label">Votre fichier</label>
+            <input type="file" id="files" name="files">
+        </div>
+        <button type="submit" class="btn_contact">Envoyer votre formulaire</button>
+    </form>
+</div>
+<footer>
+
+</footer>
+
+
+<script src="https://kit.fontawesome.com/1684a4a34d.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
