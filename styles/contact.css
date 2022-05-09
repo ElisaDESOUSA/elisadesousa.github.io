@@ -1,8 +1,4 @@
-* {
-    color: #fff;
-}
-
-.container_contact h2 {
+.container_contact h1 {
     font-size: 4rem;
     background: #fcb045;
     background: -webkit-linear-gradient(to right, #6441A5, #da22ff);
@@ -16,6 +12,7 @@
 }
 
 form {
+    color: #fff;
     display: block;
     justify-content: left;
 }
@@ -36,6 +33,7 @@ form {
 }
 
 .contact_label {
+    font-size: 1.2rem;
     color: #fcb045;
     display: flex;
     margin: 10px;
@@ -123,3 +121,4 @@ input, textarea {
 {
     margin-top: 10px;
 }
+

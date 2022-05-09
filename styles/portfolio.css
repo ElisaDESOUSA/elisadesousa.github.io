@@ -1,0 +1,172 @@
+.portfolio {
+    color: #fff;
+    background: #131313;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    padding: 10rem 0;
+}
+
+.portfolio h1 {
+    font-size: 6rem;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #fcb045 ,#fd1d1d, #6441A5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.portfolio h2 {
+    font-size: 2rem;
+}
+
+
+.portfolio_section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    
+}
+
+.portfolio_crea {
+    margin: 10px;
+    height: 425px;
+    width: 300px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background: #6441A5;
+    transition: 0.3s ease-in;
+}
+
+.portfolio_crea p {
+    text-align: center;
+}
+
+.portfolio a {
+    text-decoration: none;
+    color:#fff;
+}
+
+.portfolio_crea h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.portfolio_crea:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+
+#gameboy {
+    background-image: url('../image/gameboy.jpg');
+    background-size: 100%;
+}
+
+
+#test-amour {
+    background-image: url('../image/amour1.jpg');
+    background-size: 100%;
+}
+
+#cookie {
+    background-image: url('../image/cookie.jpg');
+    background-size: 100%;
+}
+
+.github {
+    border: none;
+    font-size: 1.2rem;
+    background-color: #fcb045;
+    width: 10%;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    padding: 5px;
+}
+
+
+.github:hover {
+    animation: pulsate 1s ease-in-out;
+}
+
+.portfolio_section_graph {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.portfolio_section_graph_sup {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portfolio_section_graph_inf {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.portfolio_crea_graph {
+    margin: 10px;
+    height: 270px;
+    width: 500px;
+    border-radius: 4px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #fff;
+    background: #6441A5;
+    transition: 0.3s ease-in;
+}
+
+.portfolio_crea_graph p {
+    text-align: center;
+}
+
+.portfolio_crea_graph h3 {
+    font-size: 1.3rem;
+    text-align: center;
+    justify-content: center;
+    justify-items: center;
+}
+
+.portfolio_crea_graph:hover {
+    transform: scale(1.075);
+    transition: 0.3s ease-in;
+    cursor: pointer;
+}
+
+
+#graph_sablier {
+    background-image: url('../image/Planet_sablier.png');
+    background-size: 100%;
+}
+
+#graph_lune {
+    background-image: url('../image/croissant.png');
+    background-size: 100%;
+}
+
+#graph_landingpage {
+    background-image: url('../image/landing_page.png');
+    background-size: 100%;
+}
+
+#graph_creditcard {
+    background-image: url('../image/J2_Checkout_mockup.png');
+    background-size: 100%;
+}
+
+#graph_music {
+    background-image: url('../image/J9_MusicPlayer.png');
+    background-size: 100%;
+}

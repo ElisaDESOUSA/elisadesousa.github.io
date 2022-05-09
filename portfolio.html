@@ -5,33 +5,135 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elisa DE SOUSA | Etudiante en développement web</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/styles/style.css">
+<link rel="stylesheet" href="/styles/portfolio.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
 <!-- Barre de Navigation -->
-<nav class="navbar">
-    <div class="navbar__container">
-        <a href="#home" id="navbar__logo"><img src="image/logo.png" class="logo" alt="logo"></a>
-        <div class="navbar__toggle" id="mobile-menu">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
+<nav class="navigation_barre">
+    <div class="navigation">
+        <a href="index.html" id="navigation_logo"><img src="image/logo.png" class="logo" alt="logo"></a>
+        <div class="navigation_deroulante" id="navigation_responsive">
+            <span class="barre"></span>
+            <span class="barre"></span>
+            <span class="barre"></span>
         </div>
-        <ul class="navbar__menu">
-            <li class="navbar__item">
-                <a href="#home" class="navbar__links" id="home-page">Accueil</a>
+        <ul class="navigation_menu">
+            <li class="navigation_onglet">
+                <a href="index.html" class="navigation_lien" id="home-page">Accueil</a>
             </li>
-            <li class="navbar__item">
-                <a href="portfolio.html" class="navbar__links" id="portfolio-page">Portfolio</a>
+            <li class="navigation_onglet">
+                <a href="portfolio.html" class="navigation_lien" id="portfolio-page">Portfolio</a>
             </li>
-            <li class="navbar__item">
-                <a href="moncv.html" class="navbar__links" id="resume-page">Mon CV</a>
+            <li class="navigation_onglet">
+                <a href="moncv.html" class="navigation_lien" id="resume-page">Mon CV</a>
             </li>
-            <li class="navbar__btn">
-                <a href="contact.html" class="button" id="contact">Contact</a>
+            <li class="navigation_contact">
+                <a href="contact.html" class="bouton" id="contact">Contact</a>
             </li>
         </ul>
     </div>
 </nav>
 
+<div class="portfolio" id="portfolio_dev">
+    <h1>Mon portfolio</h1>
+    <h2>Section développement</h2>
+    <button class="github"><a href="https://github.com/ElisaDESOUSA">Mon GitHub</a></button>
+    <div class="portfolio_section">
+        <a href="https://elisadesousa.github.io/Game_Boy/">
+            <div class="portfolio_crea" id="gameboy">
+                <h3>GameBoy</h3>
+                <p>HTML - CSS</p>
+            </div>
+        </a>
+        <a href="https://elisadesousa.github.io/test-compatibilite-amoureuse/">
+            <div class="portfolio_crea" id="test-amour">
+                <h3>Test de compatibilité amoureuse</h3>
+                <p>HTML - CSS - JavaScript</p>
+            </div>
+        </a>
+        <a href="https://elisadesousa.github.io/CookieClicker/">
+            <div class="portfolio_crea" id="cookie">
+                <h3>Cookie clicker</h3>
+                <p>HTML - CSS - JavaScript</p>
+            </div>
+        </a>
+    </div>
+</div>
+
+<div class="portfolio" id="portfolio_graph">
+    <h2>Section graphisme</h2>
+    <button class="github"><a href="Identité visuelle-Portfolio_compressed.pdf">Mon identité visuelle</a></button>
+    <div class="portfolio_section_graph">
+        <div class="portfolio_section_graph_sup">
+            <a href="../image/Planet_sablier.png">
+                <div class="portfolio_crea_graph" id="graph_sablier">
+                    <h3>Planète Sablier</h3>
+                    <p>Illustrator</p>
+                </div>
+            </a>
+            <a href="../image/croissant.png">
+                <div class="portfolio_crea_graph" id="graph_lune">
+                        <h3>Croissant de lune</h3>
+                        <p>Illustrator</p>
+                </div>
+            </a>
+            <a href="../image/landing_page.png">
+                <div class="portfolio_crea_graph" id="graph_landingpage">
+                        <h3>Landing page</h3>
+                        <p>Adobe Xd - Figma</p>
+                </div>
+            </a>
+        </div>
+        <div class="portfolio_section_graph_inf">
+            <a href="../image/J2_Checkout_mockup.png">
+                <div class="portfolio_crea_graph" id="graph_creditcard">
+                        <h3>Credit card checkout</h3>
+                        <p>Adobe Xd - Figma</p>
+                </div>
+            </a>
+            <a href="../image/J9_MusicPlayer.png">
+                <div class="portfolio_crea_graph" id="graph_music">
+                        <h3>Lecteur de musique</h3>
+                        <p>Adobe Xd - Figma</p>
+                </div>
+            </a>
+        </div>
+    </div>
+</div>
+
+
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer_lien_section">
+        <div class="footer_lien">
+            <div class="footer_lien_lien">
+                <h2>Me contacter</h2>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer_lien_lien">
+                <h2>Mes réseaux sociaux</h2>
+                <a href="https://www.instagram.com/elisa_desousa_/">Instagram</a>
+                <a href="https://www.linkedin.com/in/elisa-desousa/">LinkedIn</a>
+            </div>    
+        </div>
+    </div>
+    <section class="reseaux_sociaux">
+        <div class="reseaux_sociaux_section">
+            <div class="footer_logo">
+                <a href="#" id="footer_logo"><img src="image/Logo1.png" class="logo" alt="Logo"></a>
+            </div>
+            <p class="website_rights">© Elisa 2022.</p>
+            <div class="reseaux_sociaux_icon">
+                <a href="#" class="reseaux_sociaux_lien"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="reseaux_sociaux_lien"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
+</footer>
+
+<script src="https://kit.fontawesome.com/1684a4a34d.js" crossorigin="anonymous"></script>
+<script src="script.js"></script>
+</body>
+</html>
