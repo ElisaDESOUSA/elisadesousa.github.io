@@ -44,6 +44,7 @@ form {
 .btn_contact {
     font-size: 1.2rem;
     text-decoration: none;
+    margin: 39px;
     padding: 10px 20px;
     width: 100%;
     border:none;
@@ -113,9 +114,9 @@ input, textarea {
     margin: auto;
 }
 
-.mb-5
+.mb-25
 {
-    margin-bottom: 5px;
+    margin-bottom: 25px;
 }
 
 .mt-10
