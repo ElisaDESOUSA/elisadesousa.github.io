@@ -35,48 +35,37 @@
         </ul>
     </div>
 </nav>
-
-<div class="container_contact">
-    <h2>Formulaire de contact</h2>
-    <div class="d-flex">
-        <div style="width: 150px;align-items: left;">
-            <p>
-                <label for="text" class="contact_label">Nom</label>
+<form action="" method="post" enctype="multipart/form-data">
+    <div class="container_contact">
+        <h2 class="centered-text">Formulaire de contact</h2>
+        
+            <p class="w-50 d-flex m-auto mb-5">
+                <label for="text" class="w-25 contact_label">Nom</label>
+                <input type="text" class="contact_input w-100" placeholder="Votre nom" id="nom">
             </p>
-            <p>
-                <label for="contact_input" class="contact_label">Prénom</label>
+            <p class="w-50 d-flex m-auto mb-5">
+                <label for="contact_input" class="w-25 contact_label">Prénom</label>
+                <input type="text" class="contact_input w-100" placeholder="Votre prénom" id="prenom">
             </p>
-            <p>
-                <label for="email" class="contact_label">Email</label>
+            <p class="w-50 d-flex m-auto mb-5">
+                <label for="email" class="w-25 contact_label">Email</label>
+                <input type="email" class="email w-100" id="email" placeholder="Votre email">
             </p>
-            <p>
-                <label for="text" class="contact_label">Sujet</label>
+            <p class="w-50 d-flex m-auto mb-5">
+                <label for="text" class="w-25 contact_label">Sujet</label>
+                <input type="text" class="contact_input w-100" placeholder="Le sujet de votre message" id="sujet"> 
             </p>
-            <p>
-                <label for="message" class="contact_label">Votre message</label>
+            <p class="w-50 d-flex m-auto mb-5">
+                <label for="message" class="w-25 contact_label">Votre message</label>
+                <textarea type="message" class=" w-100" placeholder="Laissez un message ici" name="message" id="message"></textarea>
             </p>
-            
-        </div>
-        <div class="d-block">
-            <p>
-                <input type="text" class="contact_input" placeholder="Votre nom" id="nom">
-            </p>
-            <p>
-                <input type="text" class="contact_input" placeholder="Votre prénom" id="prenom">
-            </p>
-            <p>
-                <input type="email" class="email" id="email" placeholder="Votre email">
-            </p>
-            <p>
-                <input type="text" class="contact_input" placeholder="Le sujet de votre message" id="sujet"> 
-            </p>
-            <p>
-                <textarea type="message" placeholder="Laissez un message ici" name="message" id="message"></textarea>
-            </p>
-
+    
+        <div class="centered-text mt-10">
+            <button type="submit" class="btn_contact w-25" id="submit">Envoyer votre formulaire</button>
         </div>
     </div>
-    <form action="" method="post" enctype="multipart/form-data">
+</form>
+    <!--<form action="" method="post" enctype="multipart/form-data">
         <div class="container_box_contact">
             <p class="cache" id="verif_nom">Le formulaire est invalide</p>
             <label for="text" class="contact_label">Nom</label>
@@ -111,8 +100,8 @@
         </div>
         <p class="cache" id="verif">Le formulaire est invalide</p>
         <button type="submit" class="btn_contact" id="submit">Envoyer votre formulaire</button>
-    </form>
-</div>
+    </form>-->
+
 
 <!-- Footer Section -->
 <footer class="footer">
