@@ -5,7 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elisa DE SOUSA | Etudiante en développement web</title>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="/styles/style.css">
+<link rel="stylesheet" href="styles/contact.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
@@ -37,42 +38,113 @@
 
 <div class="container_contact">
     <h2>Formulaire de contact</h2>
+    <div class="d-flex">
+        <div style="width: 150px;align-items: left;">
+            <p>
+                <label for="text" class="contact_label">Nom</label>
+            </p>
+            <p>
+                <label for="contact_input" class="contact_label">Prénom</label>
+            </p>
+            <p>
+                <label for="email" class="contact_label">Email</label>
+            </p>
+            <p>
+                <label for="text" class="contact_label">Sujet</label>
+            </p>
+            <p>
+                <label for="message" class="contact_label">Votre message</label>
+            </p>
+            
+        </div>
+        <div class="d-block">
+            <p>
+                <input type="text" class="contact_input" placeholder="Votre nom" id="nom">
+            </p>
+            <p>
+                <input type="text" class="contact_input" placeholder="Votre prénom" id="prenom">
+            </p>
+            <p>
+                <input type="email" class="email" id="email" placeholder="Votre email">
+            </p>
+            <p>
+                <input type="text" class="contact_input" placeholder="Le sujet de votre message" id="sujet"> 
+            </p>
+            <p>
+                <textarea type="message" placeholder="Laissez un message ici" name="message" id="message"></textarea>
+            </p>
+
+        </div>
+    </div>
     <form action="" method="post" enctype="multipart/form-data">
         <div class="container_box_contact">
+            <p class="cache" id="verif_nom">Le formulaire est invalide</p>
             <label for="text" class="contact_label">Nom</label>
-            <input type="text" class="contact_input" placeholder="Votre nom">
+            <input type="text" class="contact_input" placeholder="Votre nom" id="nom">
+            <p class="cache" id="verif_prenom">Le formulaire est invalide</p>
             <label for="contact_input" class="contact_label">Prénom</label>
-            <input type="text" class="contact_input" placeholder="Votre prénom">
+            <input type="text" class="contact_input" placeholder="Votre prénom" id="prenom">
         </div>
         <div class="container_box_contact">
+            <p class="cache" id="verif_email">Le formulaire est invalide</p>
             <label for="email" class="contact_label">Email</label>
             <input type="email" class="email" id="email" placeholder="Votre email">
         </div>
         <div class="container_box_contact">
+            <p class="cache" id="verif_sujet">Le formulaire est invalide</p>
             <label for="text" class="contact_label">Sujet</label>
-            <input type="text" class="contact_input" placeholder="Le sujet de votre message">
+            <input type="text" class="contact_input" placeholder="Le sujet de votre message" id="sujet">
         </div>
         <div class="container_box_contact">
-            <label for="checkbox" class="contact_label">J'accepte les conditions d'utilisation</label>
-            <input type="checkbox">
-        </div>
-        <div class="container_box_contact">
+            <p class="cache" id="verif_message">Le formulaire est invalide</p>
             <label for="message" class="contact_label">Votre message</label>
-            <textarea type="message" placeholder="Laissez un message ici" id="message" name="message"></textarea>
+            <textarea type="message" placeholder="Laissez un message ici" name="message" id="message"></textarea>
         </div>
         <div class="container_box_contact">
             <label for="files" class="contact_label">Votre fichier</label>
             <input type="file" id="files" name="files">
         </div>
-        <button type="submit" class="btn_contact">Envoyer votre formulaire</button>
+        <div class="container_box_contact">
+            <p class="cache" id="verif_cgu">Le formulaire est invalide</p>
+            <label for="checkbox" class="contact_label">J'accepte les conditions d'utilisation</label>
+            <input type="checkbox" id="checkbox">
+        </div>
+        <p class="cache" id="verif">Le formulaire est invalide</p>
+        <button type="submit" class="btn_contact" id="submit">Envoyer votre formulaire</button>
     </form>
 </div>
-<footer>
 
+<!-- Footer Section -->
+<footer class="footer">
+    <div class="footer_lien_section">
+        <div class="footer_lien">
+            <div class="footer_lien_lien">
+                <h2>Me contacter</h2>
+                <a href="contact.html">Contact</a>
+            </div>
+            <div class="footer_lien_lien">
+                <h2>Mes réseaux sociaux</h2>
+                <a href="https://www.instagram.com/elisa_desousa_/">Instagram</a>
+                <a href="https://www.linkedin.com/in/elisa-desousa/">LinkedIn</a>
+            </div>    
+        </div>
+    </div>
+    <section class="reseaux_sociaux">
+        <div class="reseaux_sociaux_section">
+            <div class="footer_logo">
+                <a href="#" id="footer_logo"><img src="image/Logo1.png" class="logo" alt="Logo"></a>
+            </div>
+            <p class="website_rights">© Elisa 2022.</p>
+            <div class="reseaux_sociaux_icon">
+                <a href="#" class="reseaux_sociaux_lien"><i class="fab fa-instagram"></i></a>
+                <a href="#" class="reseaux_sociaux_lien"><i class="fab fa-linkedin"></i></a>
+            </div>
+        </div>
+    </section>
 </footer>
 
 
 <script src="https://kit.fontawesome.com/1684a4a34d.js" crossorigin="anonymous"></script>
-<script src="script.js"></script>
+<script src="/scripts/contact.js"></script>
 </body>
 </html>
