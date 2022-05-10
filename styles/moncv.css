@@ -9,6 +9,29 @@
     padding: 10rem 0;
 }
 
+.monCV h1 {
+    font-size: 6rem;
+    margin-bottom: 30px;
+    background: linear-gradient(to right, #fcb045 ,#fd1d1d, #6441A5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .mon_cv {
-    
+    border: none;
+    font-size: 1.2rem;
+    background-color: #fcb045;
+    width: 10%;
+    border-radius: 4px;
+    margin-top: 50px;
+    margin-bottom: 90px;
+    padding: 5px;
+}
+
+.mon_cv a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.mon_cv:hover {
+    animation: pulsate 1s ease-in-out;
 }
