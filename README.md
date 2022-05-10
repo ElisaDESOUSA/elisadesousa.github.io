@@ -2,7 +2,7 @@
 
 Création de mon site personnal pour ma soutenance de fin d'année !
 
-https://elisadesousa.github.io/my-personnal-site/
+https://elisadesousa.github.io/
 
 Améliorations à venir : 
 - Page portfolio
