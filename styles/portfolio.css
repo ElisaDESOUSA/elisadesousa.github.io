@@ -12,7 +12,7 @@
 .portfolio h1 {
     font-size: 6rem;
     margin-bottom: 30px;
-    background: linear-gradient(to right, #fcb045 ,#fd1d1d, #6441A5);
+    background: linear-gradient(to right, #fd1d1d, #fc6d6d);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
