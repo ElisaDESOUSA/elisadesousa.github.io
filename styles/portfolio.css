@@ -83,13 +83,13 @@
 
 .github {
     border: none;
-    font-size: 1.2rem;
-    background-color: #fcb045;
+    font-size: 1.35rem;
+    background-color: #6441A5;
     width: 10%;
     border-radius: 4px;
     margin-top: 50px;
     margin-bottom: 90px;
-    padding: 5px;
+    padding: 10px;
 }
 
 
@@ -101,6 +101,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
+    opacity: 100%;
 }
 
 .portfolio_section_graph_sup {

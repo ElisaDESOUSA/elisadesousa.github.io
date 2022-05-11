@@ -18,13 +18,13 @@
 }
 .mon_cv {
     border: none;
-    font-size: 1.2rem;
-    background-color: #fcb045;
+    font-size: 1.3rem;
+    background-color: #6441A5;
     width: 10%;
     border-radius: 4px;
     margin-top: 50px;
     margin-bottom: 90px;
-    padding: 5px;
+    padding: 10px;
 }
 
 .mon_cv a {
