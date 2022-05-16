@@ -24,6 +24,7 @@
 
 .planet {
     display: flex;
+    margin: 5%;
     flex-direction: row;
     align-items: center;
 }
