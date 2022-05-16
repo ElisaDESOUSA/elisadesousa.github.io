@@ -1,4 +1,4 @@
-var myText = "développeuse";
+var myText = "développeuse web";
 
 var myArray = myText.split(""); 
 
