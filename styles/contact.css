@@ -33,14 +33,14 @@ form {
 }
 
 .contact_label {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     color: #fcb045;
     display: flex;
     margin: 10px;
 }
 
 .btn_contact {
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     text-decoration: none;
     margin: 39px;
     padding: 10px 20px;
@@ -63,6 +63,7 @@ form {
 input, textarea {
     color: #000;
     padding:10px;
+    font-size: 1rem;
 }
 
 .d-flex {
