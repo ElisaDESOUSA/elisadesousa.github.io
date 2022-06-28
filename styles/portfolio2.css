@@ -24,38 +24,61 @@
 
 .planet {
     display: flex;
-    margin: 5%;
-    flex-direction: row;
     align-items: center;
+    justify-content: center;
+    height: 50vh;
 }
 
-.planet_img img {
+.planet_description {
+    position: absolute;
+    height: auto;
+    width: 60vw;
+    animation: rotation 70s linear infinite;
+}
+
+.planet_img {
+    position: absolute;
+    height: auto;
+    width: 25vw;
     border-radius: 50%;
     border: none;
+    animation: rotation 20s linear infinite;
 }
 
-.planet_img img:hover {
+.planet_img:hover {
     animation: pulsate 1000s ease-in-out;
     transition-duration: 300ms;
     transition-property: transform;
-    transform: scale(1.075)
+    transform: scale(1.075);
 
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+    }
+    to {
+        transform: rotate(359deg);
+    }
 }
 
 .projet_dev {
-    height: 100%;
-    width: 70%;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    margin: 5%;
+    /*margin: 5%;*/
+    height: 100%;
+    width: 100%;
 }
 
 .slide {
-    width: 30%;
     display: flex;
-    background-color: #fd1d1d;
-    margin: 5%;
+    height: 100%;
+    width: 12%;
+    border-radius: 50%;
+    border: #ffffff solid;
+    background-color: #a50bcc;
+    align-items: center;
     justify-content: center;
 
 }
