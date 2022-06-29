@@ -5,8 +5,8 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Elisa DE SOUSA | Etudiante en développement web</title>
-<link rel="stylesheet" href="/styles/style.css">
-<link rel="stylesheet" href="/styles/contact.css">
+<link rel="stylesheet" href="styles/style.css">
+<link rel="stylesheet" href="styles/contact.css">
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
 </head>
 <body>
@@ -41,23 +41,28 @@
         
             <p class="w-50 d-flex m-auto mb-25">
                 <label for="nom" class="w-25 contact_label">Nom</label>
-                <input type="text" class="contact_input w-100" placeholder="Votre nom" id="nom" name="nom">
+                <input type="text" class="contact_input w-100" placeholder="Votre nom" id="nom" name="nom" required>
             </p>
             <p class="w-50 d-flex m-auto mb-25">
                 <label for="prenom" class="w-25 contact_label">Prénom</label>
-                <input type="text" class="contact_input w-100" placeholder="Votre prénom" id="prenom" name="prenom">
+                <input type="text" class="contact_input w-100" placeholder="Votre prénom" id="prenom" name="prenom" required>
             </p>
             <p class="w-50 d-flex m-auto mb-25">
                 <label for="email" class="w-25 contact_label">Email</label>
-                <input type="email" class="email w-100" placeholder="Votre email" id="email" name="email">
+                <input type="email" class="email w-100" placeholder="Votre email" id="email" name="email" required>
             </p>
             <p class="w-50 d-flex m-auto mb-25">
                 <label for="sujet" class="w-25 contact_label">Sujet</label>
-                <input type="text" class="contact_input w-100" placeholder="Le sujet de votre message" id="sujet" name="sujet"> 
+                <select name="sujet" id="sujet" class="contact_input w-100" placeholder="Le sujet de votre message" required>
+                    <option value="">Choissisez votre sujet ici</option>
+                    <option value="">Projet développement web</option>
+                    <option value="">Projet graphisme</option>
+                    <option value="">Autres</option>
+                </select>
             </p>
             <p class="w-50 d-flex m-auto mb-25">
                 <label for="message" class="w-25 contact_label">Message</label>
-                <textarea type="message" class=" w-100" placeholder="Laissez un message ici" id="message" name="message"></textarea>
+                <textarea type="message" class=" w-100" placeholder="Laissez un message ici" id="message" name="message" required></textarea>
             </p>
     
         <div class="centered-text mt-10">
