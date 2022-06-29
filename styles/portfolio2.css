@@ -27,6 +27,7 @@
     align-items: center;
     justify-content: center;
     height: 50vh;
+    margin: 15%;
 }
 
 .planet_description {
@@ -43,14 +44,6 @@
     border-radius: 50%;
     border: none;
     animation: rotation 20s linear infinite;
-}
-
-.planet_img:hover {
-    animation: pulsate 1000s ease-in-out;
-    transition-duration: 300ms;
-    transition-property: transform;
-    transform: scale(1.075);
-
 }
 
 @keyframes rotation {
